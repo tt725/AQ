@@ -32,7 +32,7 @@ def figure(copter_sota, breakout_sota, asterix_sota, copter_a):
                   r'SoftDQN',
                   r'WDDQN',
                   r'REDQ',
-                  r'EBDL',
+                  r'EBQL',
                   r"AdaEQ",
                   r'AdaADQN']
 
@@ -188,7 +188,7 @@ if __name__ == "__main__":
                                    indexList=[3, 4, 5, 6, 7, 8, 9, 10, 20],
                                    runs=20)
     asterix_sota = get_date(env_name='minatar_Asterix', x_label=x_label, y_label=y_label,
-                                  indexList=[3, 4, 5, 6, 7, 8, 9, 10, 20],
+                                  indexList=[3, 4, 5, 6, 7, 8, 9, 10, 21],
                                   runs=20)
     copter_c = get_date(env_name='copter', x_label=x_label, y_label=y_label,
                        indexList=[1, 2, 20, 21, 22, 23, 24],

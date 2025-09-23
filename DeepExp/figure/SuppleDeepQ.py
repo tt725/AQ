@@ -449,37 +449,37 @@ if __name__ == "__main__":
     x_label = 'Step'
     y_label = 'Average Return'
     copter_m = get_date(env_name='copter', x_label=x_label, y_label=y_label,
-                        indexList=[1,11,12,13,14,15],
+                        indexList=[1, 14, 11, 19, 12, 15],
                         runs=20)
     copter_n = get_date(env_name='copter', x_label=x_label, y_label=y_label,
-                        indexList=[2,16,17,13,18,19],
+                        indexList=[2, 16, 13, 19, 18, 17],
                         runs=20)
     copter_c = get_date(env_name='copter', x_label=x_label, y_label=y_label,
-                        indexList=[1, 2, 13, 20],
+                        indexList=[1, 2, 19, 20],
                         runs=20)
     copter_a = get_date(env_name='copter', x_label=x_label, y_label=y_label,
                         indexList=[1, 2, 20, 21, 22, 23, 24],
                         runs=20)
     breakout_m = get_date(env_name='minatar_Breakout', x_label=x_label, y_label=y_label,
-                          indexList=[1,11,12,13,14,15],
+                          indexList=[1, 12, 14, 15, 13, 11],
                           runs=20)
     breakout_n = get_date(env_name='minatar_Breakout', x_label=x_label, y_label=y_label,
-                          indexList=[2,16,17,13,18,19],
+                          indexList=[2, 19, 16, 15, 17, 18],
                           runs=20)
     breakout_c = get_date(env_name='minatar_Breakout', x_label=x_label, y_label=y_label,
-                          indexList=[1, 2, 13, 20],
+                          indexList=[1, 2, 15, 20],
                           runs=20)
     breakout_a = get_date(env_name='minatar_Breakout', x_label=x_label, y_label=y_label,
                              indexList=[1, 2, 20, 21, 22, 23, 24],
                              runs=20)
     asterix_m = get_date(env_name='minatar_Asterix', x_label=x_label, y_label=y_label,
-                                indexList=[1,11,12,13,14,15],
+                                indexList=[1, 12, 14, 15, 13, 11],
                                 runs=20)
     asterix_n = get_date(env_name='minatar_Asterix', x_label=x_label, y_label=y_label,
-                                indexList=[2,16,17,13,18,19],
+                                indexList=[2, 19, 16, 15, 17, 18],
                                 runs=20)
     asterix_c = get_date(env_name='minatar_Asterix', x_label=x_label, y_label=y_label,
-                                 indexList=[1, 2, 13, 20],
+                                 indexList=[1, 2, 15, 21],
                                  runs=20)
     asterix_a = get_date(env_name='minatar_Asterix', x_label=x_label, y_label=y_label,
                                indexList=[1, 2, 21, 20, 22, 23, 24],
