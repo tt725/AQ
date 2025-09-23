@@ -52,7 +52,7 @@ def figure(hopper_sota, ant_sota, walk_sota,Hopper_AQ_a):
     color_sota = {
         'DDPG': 'blue',
         'TD3': 'black',
-        'AvgDQN': 'green',
+        'AvgDDPG': 'green',
         'REDQ': 'c',
         'AdaEQ': 'm',
         'AdaADDPG': 'red',
@@ -208,7 +208,7 @@ if __name__ == "__main__":
     algo_path_Hopper = {
         'DDPG': 'Hopper-v2_ddpg_N1',
         'TD3': 'Hopper-v2_TD3_N2',
-        'AvgDQN': 'Hopper-v2_average_N2',
+        'AvgDDPG': 'Hopper-v2_average_N2',
         'REDQ': 'Hopper-v2_redq_N10_M2',
         'AdaEQ': 'Hopper-v2_adaeq_N10_M2_C0.3',
         'AdaADDPG': 'Hopper-v2_SoftAQ_N2_T1',
@@ -220,7 +220,7 @@ if __name__ == "__main__":
     algo_path_Ant = {
         'DDPG': 'Ant-v2_ddpg_N1',
         'TD3': 'Ant-v2_TD3_N2',
-        'AvgDQN': 'Ant-v2_average_N2',
+        'AvgDDPG': 'Ant-v2_average_N2',
         'REDQ': 'Ant-v2_redq_N10_M2',
         'AdaEQ': 'Ant-v2_adaeq_N10_M2_C0.3',
         'AdaADDPG': 'Ant-v2_SoftAQ_N2_T1',
@@ -232,7 +232,7 @@ if __name__ == "__main__":
     algo_path_Walker2d = {
         'DDPG': 'Walker2d-v2_ddpg_N1',
         'TD3': 'Walker2d-v2_TD3_N2',
-        'AvgDQN': 'Walker2d-v2_average_N2',
+        'AvgDDPG': 'Walker2d-v2_average_N2',
         'REDQ': 'Walker2d-v2_redq_N10_M2',
         'AdaEQ': 'Walker2d-v2_adaeq_N10_M2_C0.3',
         'AdaADDPG': 'Walker2d-v2_SoftAQ_N2_T1',
