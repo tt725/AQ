@@ -69,9 +69,9 @@ def figure(multiarm_m):
     x = np.arange(len(data))
     width = 0.3
 
-    for i, line_positions in enumerate(thresholds):
-        for y in line_positions:
-            ax2.plot([x[i] - width / 2, x[i] + width / 2], [y, y], color='black', linestyle='--', linewidth=1.5)
+    # for i, line_positions in enumerate(thresholds):
+    #     for y in line_positions:
+    #         ax2.plot([x[i] - width / 2, x[i] + width / 2], [y, y], color='black', linestyle='--', linewidth=1.5)
 
     keypoint_base = [data[0],
                      data[1] - data[0] * learningRate * gamma,
@@ -106,7 +106,7 @@ def figure(multiarm_m):
     ax2.yaxis.get_major_formatter().set_powerlimits((-1, -1))
     ax2.yaxis.get_offset_text().set_fontsize(15)
     ax2.legend(fontsize=11, loc="upper left", handlelength=3)
-    ax2.set_title(label=r'(b) Cur & Prop-bias', fontsize=15, y=-0.4)
+    ax2.set_title(label=r'(b) Cur- & Prop-bias', fontsize=15, y=-0.4)
 
     plt.savefig("./Example.pdf", dpi=600, bbox_inches='tight', format='pdf')
     plt.show()
@@ -115,18 +115,22 @@ def figure(multiarm_m):
 def get_Q1_value(dir):
     log = open(dir, 'r').readlines()
     max_Q_S = log[-1][:]
+    # print(max_Q_S)
     max_Q_S = ast.literal_eval(max_Q_S)
+    # max_Q_S = [0.95*value for value in max_Q_S]
+    # print(max_Q_S)
     return max_Q_S
 
 def get_Q2_value(dir):
     log = open(dir, 'r').readlines()
     max_Q_S_5 = log[-3][:]
     max_Q_S_5 = ast.literal_eval(max_Q_S_5)
+    # max_Q_S_5 = [0.95 * value for value in max_Q_S_5]
     return max_Q_S_5
 
 
 if __name__ == "__main__":
-    Q1_learning_dir = r'../Result/log.Q 2025.06.11.16.19.20'
+    Q1_learning_dir = r'../Result/log.Q 2024.12.25.12.08.29'
     y1_value = get_Q1_value(
         dir=Q1_learning_dir)
 
