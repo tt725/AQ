@@ -1,0 +1,25 @@
+2024-12-25 12:08:29,834 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:18] - INFO: ************************************
+2024-12-25 12:08:29,834 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:19] - INFO: repeat experiment number is 0
+2024-12-25 12:11:07,502 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:18] - INFO: ************************************
+2024-12-25 12:11:07,503 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:19] - INFO: repeat experiment number is 1000
+2024-12-25 12:13:46,683 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:18] - INFO: ************************************
+2024-12-25 12:13:46,683 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:19] - INFO: repeat experiment number is 2000
+2024-12-25 12:16:24,690 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:18] - INFO: ************************************
+2024-12-25 12:16:24,690 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:19] - INFO: repeat experiment number is 3000
+2024-12-25 12:19:03,443 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:18] - INFO: ************************************
+2024-12-25 12:19:03,443 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:19] - INFO: repeat experiment number is 4000
+2024-12-25 12:21:42,073 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:18] - INFO: ************************************
+2024-12-25 12:21:42,073 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:19] - INFO: repeat experiment number is 5000
+2024-12-25 12:24:19,982 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:18] - INFO: ************************************
+2024-12-25 12:24:19,982 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:19] - INFO: repeat experiment number is 6000
+2024-12-25 12:26:58,255 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:18] - INFO: ************************************
+2024-12-25 12:26:58,255 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:19] - INFO: repeat experiment number is 7000
+2024-12-25 12:29:35,962 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:18] - INFO: ************************************
+2024-12-25 12:29:35,962 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:19] - INFO: repeat experiment number is 8000
+2024-12-25 12:32:13,722 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:18] - INFO: ************************************
+2024-12-25 12:32:13,722 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:19] - INFO: repeat experiment number is 9000
+2024-12-25 12:34:53,945 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:20] - INFO: ************************************
+2024-12-25 12:34:53,946 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:21] - INFO: max_Q_S_5 is: 
+[1.0887643640456675, 1.117407117194049, 1.1706566841357862, 1.224338051602978, 1.2802179169724204]
+2024-12-25 12:34:53,946 - D:/Software/PyCharm/workspace/jiang/Example/QMain.py[line:22] - INFO: max_Q_S is: 
+[1.0887643640456675, 2.6356963706343137, 3.0427760611634675, 3.2869784833189164, 3.4608707407915156, 3.5892268127018148, 3.6918848713100276, 3.7788595800814817, 3.831336343181249, 3.8951814355066685, 3.948650371082138, 3.991589784102359, 4.012470046769313, 4.072124024920252, 4.078825434944566, 4.100584994876037, 4.123140957175414, 4.130796935062731, 4.150960460598456, 4.1545959239693575, 4.1886316244678, 4.174814999304228, 4.1958219777169115, 4.184046627535852, 4.192378965852908, 4.1811216466373935, 4.184319954757901, 4.168599200687218, 4.181020044090424, 4.175622733288613, 4.168184789867804, 4.1796582777730436, 4.152551868770748, 4.153820876137214, 4.150576993415792, 4.142856725515739, 4.127737769786437, 4.117341741664639, 4.107684749054898, 4.095233079622893, 4.092510421677606, 4.070908259248886, 4.064054132935283, 4.055864536351571, 4.042863863192265, 4.018850520850504, 4.004101853556903, 4.013501947969833, 4.002875709317653, 3.9893957776234785, 3.963089241124724, 3.963657884845893, 3.943162494979662, 3.938840464974876, 3.9322195499340626, 3.9105118401745793, 3.8927270573569213, 3.8850680452748785, 3.871085999584777, 3.867529074277228, 3.847167293430669, 3.8438326116564365, 3.8241504104396453, 3.804775181988296, 3.8054028428186006, 3.7887423686540527, 3.7791950726532493, 3.7647278097872157, 3.7644849933969686, 3.747260000821027, 3.7342552345848206, 3.7079946988942125, 3.7005492861263805, 3.7022957675348227, 3.689138584265903, 3.693722842981988, 3.6830146337584875, 3.6732712704742108, 3.650255669199983, 3.6350692059323557, 3.6381356567756615, 3.6129687933584815, 3.61084275335212, 3.6017616829079118, 3.595593917375199, 3.6005288419352284, 3.5725991673958526, 3.5751525457196562, 3.5706168111413032, 3.5492177919898147, 3.5489058677493768, 3.522733254966361, 3.541549831855708, 3.528596195313606, 3.521072533884227, 3.5075068202895805, 3.4979700569454972, 3.4915986057939152, 3.4849266571134647, 3.4844180240392766]
